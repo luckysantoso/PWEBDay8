@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator With VueJS</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simple Calculator VueJS</h1>
+    <div id="calcu">
+        <input v-model="var1">
+        <input v-model="var2">
+        <br>
+        <button v-on:click="result = parseFloat(var1) + parseFloat(var2)">+</button>
+        <button v-on:click="result = parseFloat(var1) - parseFloat(var2)">-</button>
+        <button v-on:click="result = parseFloat(var1) * parseFloat(var2)">*</button>
+        <button v-on:click="result = parseFloat(var1) / parseFloat(var2)">/</button>
+        <button v-on:click="clearValues">C</button>
+        <p>Result : {{result}} </p>
+    </div>
+
+    <br><br>
+<script src="script.js"></script>
+</body>
+</html>
