@@ -30,3 +30,13 @@ var calculator = new Vue ({
           }
     }
 });
+
+var list = new Vue ({
+  el : '#list',
+  data : {
+     message : "Tugas Praktek VueJS",
+     nama : "Lucky Santoso",
+     nrp : "5025221050",
+     kelas : "Pemograman Web"
+  }
+})
