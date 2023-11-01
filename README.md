@@ -1,2 +1,2 @@
 # PWEBDay8
-![image](https://github.com/luckysantoso/PWEBDay8/assets/143468351/11f08210-d2d7-4cd0-82e1-68739e71f8c1)
+<img width="471" alt="image" src="https://github.com/luckysantoso/PWEBDay8/assets/143468351/a39dc3c8-2cfa-419d-b0b6-e1e1531a85a1">
